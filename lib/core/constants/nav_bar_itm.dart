@@ -1,0 +1,1 @@
+enum NavbarItem { home, catalog, course, cart, accaunt }
