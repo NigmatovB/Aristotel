@@ -3,7 +3,6 @@ import 'package:aristotel/core/data/images.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_image_slideshow/flutter_image_slideshow.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutter_svg/svg.dart';
 
 class HomeBody extends StatelessWidget {
   const HomeBody({super.key});

@@ -27,6 +27,7 @@ dependencies:
 
 
   dependencies:
+  bottom_nav_layout: ^3.0.9
 
 dev_dependencies:
   flutter_test:
