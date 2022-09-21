@@ -1,9 +1,9 @@
-import 'package:aristotel/screen/root/root_screen.dart';
+import 'package:aristotel/ui/screen/root/root_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-import 'core/bloc/battom_nav_bar/navigation_cubit.dart';
+import 'data/bloc/battom_nav_bar/navigation_cubit.dart';
 
 void main() {
   runApp(const MyApp());

@@ -1,12 +1,13 @@
-import 'package:aristotel/core/data/icons.dart';
+import 'package:aristotel/utils/icons.dart';
 import 'package:aristotel/utils/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
 
-import '../../../core/bloc/battom_nav_bar/navigation_cubit.dart';
-import '../../../core/constants/nav_bar_itm.dart';
+import '../../../../data/bloc/battom_nav_bar/navigation_cubit.dart';
+import '../../../../data/constants/nav_bar_itm.dart';
+
 
 class BottomNavBar extends StatelessWidget {
   const BottomNavBar({super.key});

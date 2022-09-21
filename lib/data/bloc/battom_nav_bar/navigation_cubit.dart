@@ -1,8 +1,8 @@
 // ignore_for_file: depend_on_referenced_packages
-
-import 'package:aristotel/core/constants/nav_bar_itm.dart';
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
+
+import '../../constants/nav_bar_itm.dart';
 
 part 'navigation_state.dart';
 

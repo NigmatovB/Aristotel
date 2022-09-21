@@ -1,5 +1,5 @@
 import 'package:aristotel/utils/colors.dart';
-import 'package:aristotel/core/data/images.dart';
+import 'package:aristotel/utils/images.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_image_slideshow/flutter_image_slideshow.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -17,17 +17,23 @@ class HomeBody extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.start,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            SizedBox(
+            Container(
               width: 328.w,
               height: 150.h,
+              decoration:  BoxDecoration(
+                color: Colors.red,
+                  borderRadius:  BorderRadius.all( Radius.circular(40.0.w) ),
+                ),
               child: ImageSlideshow(
+                indicatorRadius: 3.5.w,
                 indicatorColor: Rgb.White,
-                // onPageChanged: (value) {
-                //   debugPrint('Page changed: $value');
-                // },
-                autoPlayInterval: 3000,
+                autoPlayInterval: 5000,
                 isLoop: true,
                 children: [
+                  Image.asset(
+                    ImagesName.sliderPhoto,
+                    fit: BoxFit.cover,
+                  ),
                   Image.asset(
                     ImagesName.sliderPhoto,
                     fit: BoxFit.cover,

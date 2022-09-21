@@ -1,17 +1,17 @@
-import 'package:aristotel/core/data/icons.dart';
+import 'package:aristotel/utils/icons.dart';
 import 'package:aristotel/utils/colors.dart';
-import 'package:aristotel/screen/accaunt/accaunt_screen.dart';
-import 'package:aristotel/screen/cart/cart_screen.dart';
-import 'package:aristotel/screen/cataloge/catalog_screen.dart';
-import 'package:aristotel/screen/course/course_screen.dart';
-import 'package:aristotel/screen/root/widget/bottom_nav_bar.dart';
+import 'package:aristotel/ui/screen/accaunt/accaunt_screen.dart';
+import 'package:aristotel/ui/screen/cart/cart_screen.dart';
+import 'package:aristotel/ui/screen/cataloge/catalog_screen.dart';
+import 'package:aristotel/ui/screen/course/course_screen.dart';
+import 'package:aristotel/ui/screen/root/widget/bottom_nav_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
 
-import '../../core/bloc/battom_nav_bar/navigation_cubit.dart';
-import '../../core/constants/nav_bar_itm.dart';
+import '../../../data/bloc/battom_nav_bar/navigation_cubit.dart';
+import '../../../data/constants/nav_bar_itm.dart';
 import '../home/home_screen.dart';
 
 class RootScreen extends StatelessWidget {

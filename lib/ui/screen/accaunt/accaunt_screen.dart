@@ -1,4 +1,4 @@
-import 'package:aristotel/screen/accaunt/widget/accaunt_body.dart';
+import 'package:aristotel/ui/screen/accaunt/widget/accaunt_body.dart';
 import 'package:flutter/material.dart';
 
 class AccauntScreen extends StatelessWidget {

@@ -1,4 +1,4 @@
-import 'package:aristotel/screen/cataloge/widget/catalog_body.dart';
+import 'package:aristotel/ui/screen/cataloge/widget/catalog_body.dart';
 import 'package:flutter/material.dart';
 
 class CatalogScreen extends StatelessWidget {

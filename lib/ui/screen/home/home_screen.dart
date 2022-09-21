@@ -1,4 +1,4 @@
-import 'package:aristotel/screen/home/widget/home_body.dart';
+import 'package:aristotel/ui/screen/home/widget/home_body.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
