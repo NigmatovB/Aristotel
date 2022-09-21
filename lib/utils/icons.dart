@@ -10,4 +10,6 @@ class NavIcons {
   static const cart = 'assets/icons/shopping-cart-del.svg';
   static const cart2 = 'assets/icons/shopping-cart-del1.svg';
   static const logo = 'assets/icons/logo.svg';
+  static const right = 'assets/icons/left.png';
+  static const left = 'assets/icons/right.png';
 }

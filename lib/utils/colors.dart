@@ -8,5 +8,7 @@ class Rgb {
   static final bodyColor = HexColor.fromHex('#f4f5f9');
   static final darkBlue = HexColor.fromHex('#3445cb');
   static final grey1 = HexColor.fromHex('#cbcbde'); 
-}
+  static final grey2 = HexColor.fromHex('#5B5D5F'); 
+  static final grey3 = HexColor.fromHex('#9293BA'); 
 
+}
