@@ -92,7 +92,7 @@ class HomeBody extends StatelessWidget {
             const Card_item(
               title: 'Сертифицированные курсы',
               imagePath: ImagesName.c2,
-              demoColor: Rgb.pink,
+              demoColor: Rgb.cyan,
             ),
             height(10.sp),
             const Card_item(

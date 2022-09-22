@@ -11,8 +11,9 @@ class Rgb {
   static final grey2 = HexColor.fromHex('#5B5D5F'); 
   static final grey3 = HexColor.fromHex('#9293BA'); 
   static const  green = Colors.green;
-  static const  pink = Colors.cyan;
+  static const  cyan = Colors.cyan;
   static const  teal = Colors.teal;
   static const  blueAccent = Colors.blueAccent;
+  static const  transparent = Colors.transparent;
 
 }
