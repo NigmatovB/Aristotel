@@ -60,7 +60,7 @@ class HomeBody extends StatelessWidget {
                   width: 328.w,
                   height: 150.h,
                   child: ImageSlideshow(
-                    indicatorRadius: 3.5.w,
+                    indicatorRadius: 3.w,
                     indicatorColor: Rgb.White,
                     autoPlayInterval: 7000,
                     isLoop: true,
@@ -83,100 +83,29 @@ class HomeBody extends StatelessWidget {
               ],
             ),
             height(10.sp),
-            Container(
-              width: 344.w,
-              height: 260.h,
-              margin: EdgeInsets.only(top: 24.h, left: 16.w),
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.start,
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  TextWid(
-                    text: "Новые курсы",
-                    fontWeight: FontWeight.bold,
-                    fontSize: 12.sp,
-                  ),
-                  height(16.h),
-                  SizedBox(
-                    height: 220.h,
-                    child: GridView.builder(
-                      gridDelegate:
-                          const SliverGridDelegateWithFixedCrossAxisCount(
-                        crossAxisCount: 1,
-                      ),
-                      itemCount: 6,
-                      scrollDirection: Axis.horizontal,
-                      itemBuilder: (BuildContext context, int index) {
-                        return const Card_item();
-                      },
-                    ),
-                  ),
-                ],
-              ),
+            const Card_item(
+              title: 'Новые курсы',
+              demoColor: Rgb.blueAccent,
+              imagePath: ImagesName.c1,
             ),
             height(10.sp),
-            Container(
-              width: 344.w,
-              height: 260.h,
-              margin: EdgeInsets.only(top: 24.h, left: 16.w),
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.start,
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  TextWid(
-                    text: "Сертифицированные курсы",
-                    fontSize: 12.sp,
-                    fontWeight: FontWeight.bold,
-                  ),
-                  height(16.h),
-                  SizedBox(
-                    height: 220.h,
-                    child: GridView.builder(
-                      gridDelegate:
-                          const SliverGridDelegateWithFixedCrossAxisCount(
-                        crossAxisCount: 1,
-                      ),
-                      itemCount: 6,
-                      scrollDirection: Axis.horizontal,
-                      itemBuilder: (BuildContext context, int index) {
-                        return const Card_item();
-                      },
-                    ),
-                  ),
-                ],
-              ),
+            const Card_item(
+              title: 'Сертифицированные курсы',
+              imagePath: ImagesName.c2,
+              demoColor: Rgb.pink,
             ),
             height(10.sp),
-            Container(
-              width: 344.w,
-              height: 260.h,
-              margin: EdgeInsets.only(top: 24.h, left: 16.w),
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.start,
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  TextWid(
-                    text: "Новые курсы",
-                    fontSize: 12.sp,
-                  ),
-                  height(16.h),
-                  SizedBox(
-                    height: 220.h,
-                    child: GridView.builder(
-                      gridDelegate:
-                          const SliverGridDelegateWithFixedCrossAxisCount(
-                        crossAxisCount: 1,
-                      ),
-                      itemCount: 6,
-                      scrollDirection: Axis.horizontal,
-                      itemBuilder: (BuildContext context, int index) {
-                        return const Card_item();
-                      },
-                    ),
-                  ),
-                ],
-              ),
-            )
+            const Card_item(
+              title: 'Бизнес',
+              demoColor: Rgb.teal,
+              imagePath: ImagesName.c3,
+            ),
+            height(10.sp),
+            const Card_item(
+              title: 'маркетинг',
+              demoColor: Rgb.green,
+              imagePath: ImagesName.c4,
+            ),
           ],
         ),
       ),

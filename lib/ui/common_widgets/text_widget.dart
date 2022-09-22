@@ -40,7 +40,6 @@ class TextWid extends StatelessWidget {
           color: color,
           fontSize: fontSize,
           fontWeight: fontWeight,
-          fontFamily: 'SF Pro Display'
         ),
       ),
     );

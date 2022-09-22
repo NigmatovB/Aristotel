@@ -38,21 +38,21 @@ flutter:
     - assets/fonts/
 
 
-  fonts:
-    - family: SF Pro Display
-      fonts:
-        - asset: assets/fonts/FontsFree-Net-SF-Pro-Display-HeavyItalic.ttf
-        - asset: assets/fonts/FontsFree-Net-SFProDisplay-Black.ttf
-        - asset: assets/fonts/FontsFree-Net-SFProDisplay-Bold.ttf
-        - asset: assets/fonts/FontsFree-Net-SFProDisplay-Heavy-1.ttf      
-        - asset: assets/fonts/FontsFree-Net-SFProDisplay-BoldItalic.ttf
-        - asset: assets/fonts/FontsFree-Net-SFProDisplay-Heavy.ttf
-        - asset: assets/fonts/FontsFree-Net-SFProDisplay-HeavyItalic-1.ttf
-        - asset: assets/fonts/FontsFree-Net-SFProDisplay-Light-1.ttf
-        - asset: assets/fonts/FontsFree-Net-SFProDisplay-Medium-1.ttf
-        - asset: assets/fonts/FontsFree-Net-SFProDisplay-Regular-1.ttf
-        - asset: assets/fonts/FontsFree-Net-SFProDisplay-Regular.ttf
-        - asset: assets/fonts/FontsFree-Net-SFProDisplay-Semibold.ttf
-        - asset: assets/fonts/FontsFree-Net-SFProDisplay-Thin.ttf
-        - asset: assets/fonts/FontsFree-Net-SFProDisplay-ThinItalic.ttf
-        - asset: assets/FontsFree-Net-SFProDisplay-Ultralight.ttf
+  # fonts:
+  #   - family: SF Pro Display
+  #     fonts:
+  #       - asset: assets/fonts/FontsFree-Net-SF-Pro-Display-HeavyItalic.ttf
+  #       - asset: assets/fonts/FontsFree-Net-SFProDisplay-Black.ttf
+  #       - asset: assets/fonts/FontsFree-Net-SFProDisplay-Bold.ttf
+  #       - asset: assets/fonts/FontsFree-Net-SFProDisplay-Heavy-1.ttf      
+  #       - asset: assets/fonts/FontsFree-Net-SFProDisplay-BoldItalic.ttf
+  #       - asset: assets/fonts/FontsFree-Net-SFProDisplay-Heavy.ttf
+  #       - asset: assets/fonts/FontsFree-Net-SFProDisplay-HeavyItalic-1.ttf
+  #       - asset: assets/fonts/FontsFree-Net-SFProDisplay-Light-1.ttf
+  #       - asset: assets/fonts/FontsFree-Net-SFProDisplay-Medium-1.ttf
+  #       - asset: assets/fonts/FontsFree-Net-SFProDisplay-Regular-1.ttf
+  #       - asset: assets/fonts/FontsFree-Net-SFProDisplay-Regular.ttf
+  #       - asset: assets/fonts/FontsFree-Net-SFProDisplay-Semibold.ttf
+  #       - asset: assets/fonts/FontsFree-Net-SFProDisplay-Thin.ttf
+  #       - asset: assets/fonts/FontsFree-Net-SFProDisplay-ThinItalic.ttf
+  #       - asset: assets/FontsFree-Net-SFProDisplay-Ultralight.ttf

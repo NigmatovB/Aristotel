@@ -1,3 +1,4 @@
+import 'package:aristotel/ui/common_widgets/second_scaffolf.dart';
 import 'package:aristotel/ui/screen/home/widget/home_body.dart';
 import 'package:flutter/material.dart';
 
@@ -6,6 +7,9 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const HomeBody();
+    return const SecondScaffold(
+      id: 0,
+      body: HomeBody(),
+    );
   }
 }

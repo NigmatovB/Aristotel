@@ -1,4 +1,3 @@
-import 'package:aristotel/utils/icons.dart';
 import 'package:aristotel/utils/colors.dart';
 import 'package:aristotel/ui/screen/accaunt/accaunt_screen.dart';
 import 'package:aristotel/ui/screen/cart/cart_screen.dart';
@@ -7,8 +6,6 @@ import 'package:aristotel/ui/screen/course/course_screen.dart';
 import 'package:aristotel/ui/screen/root/widget/bottom_nav_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutter_svg/svg.dart';
 
 import '../../../data/bloc/battom_nav_bar/navigation_cubit.dart';
 import '../../../data/constants/nav_bar_itm.dart';
@@ -21,14 +18,6 @@ class RootScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Rgb.bodyColor,
-      appBar: AppBar(
-        elevation: 0,
-        backgroundColor: Colors.transparent,
-        centerTitle: true,
-        iconTheme: IconThemeData(color: Rgb.darkBlue),
-        title: SvgPicture.asset(NavIcons.logo, width: 126.w, height: 32.h),
-      ),
-      drawer: Drawer(child: Container()),
       bottomNavigationBar: const BottomNavBar(),
       body: BlocBuilder<NavigationCubit, NavigationState>(
         builder: (context, state) {
