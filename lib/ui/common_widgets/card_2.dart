@@ -1,11 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
-
-import '../../utils/colors.dart';
-import '../../utils/icons.dart';
-import '../../utils/images.dart';
-import 'container_widget.dart';
-import 'text_widget.dart';
+import '../../utils/imports.dart';
 
 class Card2 extends StatelessWidget {
   const Card2({

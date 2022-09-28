@@ -1,10 +1,10 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
-import '../../utils/colors.dart';
+import '../../utils/imports.dart';
 
 class SearchWid extends StatelessWidget {
+  final Function? func;
   const SearchWid({
     Key? key,
+    this.func,
   }) : super(key: key);
 
   @override
@@ -22,10 +22,7 @@ class SearchWid extends StatelessWidget {
           decoration: InputDecoration(
             contentPadding: EdgeInsets.symmetric(horizontal: 20.sp),
             hintText: 'Поиск',
-            hintStyle: TextStyle(
-              fontSize: 16.sp,
-              color: Rgb.grey2
-            ),
+            hintStyle: TextStyle(fontSize: 16.sp, color: Rgb.grey2),
             suffixIcon: Container(
                 margin: EdgeInsets.all(1.w),
                 child: ElevatedButton(
@@ -34,10 +31,9 @@ class SearchWid extends StatelessWidget {
                     elevation: 3,
                     minimumSize: Size(64.w, 48.h),
                     shape: RoundedRectangleBorder(
-                        borderRadius:
-                            BorderRadius.circular(15.0.w)),
+                        borderRadius: BorderRadius.circular(15.0.w)),
                   ),
-                  onPressed: () {},
+                  onPressed: (){},
                   child: Icon(
                     Icons.search,
                     size: 20.sp,

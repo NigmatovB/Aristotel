@@ -1,15 +1,4 @@
-import 'package:aristotel/utils/colors.dart';
-import 'package:aristotel/ui/screen/accaunt/accaunt_screen.dart';
-import 'package:aristotel/ui/screen/cart/cart_screen.dart';
-import 'package:aristotel/ui/screen/cataloge/catalog_screen.dart';
-import 'package:aristotel/ui/screen/course/course_screen.dart';
-import 'package:aristotel/ui/screen/root/widget/bottom_nav_bar.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-
-import '../../../data/bloc/battom_nav_bar/navigation_cubit.dart';
-import '../../../data/constants/nav_bar_itm.dart';
-import '../home/home_screen.dart';
+import '../../../utils/imports.dart';
 
 class RootScreen extends StatelessWidget {
   const RootScreen({super.key});

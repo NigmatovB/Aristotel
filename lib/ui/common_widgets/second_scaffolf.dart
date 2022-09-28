@@ -1,24 +1,22 @@
 // ignore_for_file: unused_local_variable, avoid_print
-import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutter_svg/svg.dart';
-
-import '../../utils/colors.dart';
-import '../../utils/icons.dart';
+import '../../utils/imports.dart';
 
 class SecondScaffold extends StatelessWidget {
   final Widget? body;
   final int? id;
+  final FloatingActionButton? floatingActionButton;
   const SecondScaffold({
     Key? key,
     this.body,
     this.id,
+    this.floatingActionButton,
   }) : super(key: key);
   @override
   Widget build(BuildContext context) {
     bool search = false;
-    if (id == 1) search = true;
+    if (id == 1 || id == 2 ) search = true;
     return Scaffold(
+      floatingActionButton: floatingActionButton,
       backgroundColor: Rgb.bodyColor,
       appBar: AppBar(
         elevation: 0,
@@ -32,7 +30,7 @@ class SecondScaffold extends StatelessWidget {
                   padding: EdgeInsets.only(right: 20.0.w),
                   child: GestureDetector(
                     onTap: () {
-                      print("Hello Search");
+                      id == 3 ? Navigator.pop(context) : Navigator.pushNamed(context, '/search');
                     },
                     child: Icon(
                       Icons.search,
@@ -45,11 +43,11 @@ class SecondScaffold extends StatelessWidget {
         ],
         leading: GestureDetector(
           child: Icon(
-            Icons.menu, 
+            id == 2 || id == 3 ? Icons.arrow_back : Icons.menu,
             color: Rgb.darkBlue,
           ),
           onTap: () {
-            print('Hello Drawer');
+            id == 2 || id == 3 ? Navigator.pop(context) : Navigator.pushNamed(context, '/drawer');
           },
         ),
       ),

@@ -1,16 +1,5 @@
 // ignore_for_file: unused_import
-
-import 'package:flutter/material.dart';
-import 'package:flutter_image_slideshow/flutter_image_slideshow.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
-
-import 'package:aristotel/utils/colors.dart';
-import 'package:aristotel/utils/images.dart';
-import 'package:flutter_svg/svg.dart';
-
-import '../../../common_widgets/search_widget.dart';
-import '../../../common_widgets/text_widget.dart';
-import 'card_item.dart';
+import '../../../../utils/imports.dart';
 
 class HomeBody extends StatelessWidget {
   const HomeBody({super.key});

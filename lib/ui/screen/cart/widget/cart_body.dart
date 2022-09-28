@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import '../../../../utils/imports.dart';
 
 class CartBody extends StatelessWidget {
   const CartBody({super.key});

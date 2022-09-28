@@ -1,22 +1,19 @@
 // ignore_for_file: camel_case_types
-
-import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
-
-import '../../utils/colors.dart';
-import '../../utils/images.dart';
-import 'container_widget.dart';
-import 'text_widget.dart';
+import '../../utils/imports.dart';
 
 class Card_3 extends StatelessWidget {
-  
+  final String? text;
+
   const Card_3({
     Key? key,
+    this.text,
   }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return ContainerWidget(
+      width: 113.w,
+      height: 115.h,
       radius: 15.r,
       child: Column(
         children: [
@@ -61,8 +58,7 @@ class Card_3 extends StatelessWidget {
                       height: 66.h,
                       color: Rgb.White,
                       child: Center(
-                        child: TextWid(
-                            text: 'Бизнес и аналитика', fontSize: 14.sp),
+                        child: TextWid(text: text, fontSize: 14.sp),
                       ),
                     ),
                   ),
@@ -75,3 +71,5 @@ class Card_3 extends StatelessWidget {
     );
   }
 }
+
+

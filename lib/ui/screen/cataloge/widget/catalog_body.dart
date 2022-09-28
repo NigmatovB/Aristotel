@@ -1,11 +1,4 @@
-import 'package:aristotel/ui/common_widgets/card_3.dart';
-import 'package:aristotel/ui/common_widgets/container_widget.dart';
-import 'package:aristotel/ui/common_widgets/card_2.dart';
-import 'package:aristotel/utils/images.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
-
-import '../../../common_widgets/text_widget.dart';
+import '../../../../utils/imports.dart';
 
 class CatalogBody extends StatelessWidget {
   const CatalogBody({super.key});
@@ -15,27 +8,29 @@ class CatalogBody extends StatelessWidget {
     return SingleChildScrollView(
       child: SafeArea(
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Align(
-              alignment: Alignment.topLeft,
+            SingleChildScrollView(
+              scrollDirection: Axis.horizontal,
               child: ContainerWidget(
-                width: 338.w,
-                height: 115.h,
-                left: 5.w,
-                radius: 15.r,
+                width: 345.w,
+                height: 140.h,
+                top: 16.h,
+                left: 16.w,
                 child: ListView.builder(
                   scrollDirection: Axis.horizontal,
-                  itemCount: 5,
-                  itemBuilder: ((context, index) {
-                    return const Card_3(  );
-                  }),
+                  itemCount: 4,
+                  itemBuilder: (context, index) {
+                    return const Card_4(
+                      text: "Бизнес и аналитика",
+                    );
+                  },
                 ),
               ),
             ),
-            height(24.h),
             Align(
               alignment: Alignment.bottomCenter,
-              child: SizedBox(
+              child: ContainerWidget(
                 width: 328.w,
                 height: 530.h,
                 child: ListView.builder(

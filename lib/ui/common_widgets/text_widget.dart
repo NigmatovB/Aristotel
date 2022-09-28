@@ -1,9 +1,7 @@
 // ignore_for_file: must_be_immutable, file_names
-
-import 'package:flutter/material.dart';
+import '../../utils/imports.dart';
 
 class TextWid extends StatelessWidget {
-
   double? top;
   double? right;
   double? bottom;
@@ -12,8 +10,9 @@ class TextWid extends StatelessWidget {
   final Color? color;
   final double? fontSize;
   final FontWeight? fontWeight;
+  final TextAlign? textAlign;
 
-   TextWid({
+  TextWid({
     Key? key,
     this.top,
     this.right,
@@ -23,8 +22,8 @@ class TextWid extends StatelessWidget {
     this.color,
     required this.fontSize,
     this.fontWeight,
+    this.textAlign,
   }) : super(key: key);
-
 
   @override
   Widget build(BuildContext context) {
@@ -33,7 +32,8 @@ class TextWid extends StatelessWidget {
     left = left ?? 0.0;
     bottom = bottom ?? 0.0;
     return Container(
-      margin: EdgeInsets.only( top: top!, right: right!, left: left!, bottom: bottom! ),
+      margin: EdgeInsets.only(
+          top: top!, right: right!, left: left!, bottom: bottom!),
       child: Text(
         text!,
         style: TextStyle(
@@ -41,9 +41,13 @@ class TextWid extends StatelessWidget {
           fontSize: fontSize,
           fontWeight: fontWeight,
         ),
+        textAlign: textAlign,
       ),
     );
   }
 }
-SizedBox height( h ) => SizedBox( height: h, );
-SizedBox width ( w ) => SizedBox( width: w );
+
+SizedBox height(h) => SizedBox(
+      height: h,
+    );
+SizedBox width(w) => SizedBox(width: w);

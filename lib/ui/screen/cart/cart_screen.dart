@@ -1,5 +1,4 @@
-import 'package:aristotel/ui/screen/cart/widget/cart_body.dart';
-import 'package:flutter/material.dart';
+import '../../../../utils/imports.dart';
 
 class CartScreen extends StatelessWidget {
   const CartScreen({super.key});

@@ -1,9 +1,4 @@
-import 'package:aristotel/ui/screen/root/root_screen.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
-
-import 'data/bloc/battom_nav_bar/navigation_cubit.dart';
+import '../../utils/imports.dart';
 
 void main() {
   runApp(const MyApp());
@@ -24,6 +19,7 @@ class MyApp extends StatelessWidget {
         return BlocProvider<NavigationCubit>(
           create: (context) => NavigationCubit(),
           child: MaterialApp(
+            routes: Routes.getRoute(),
             debugShowCheckedModeBanner: false,
             theme: ThemeData(primarySwatch: Colors.blue),
             home: const RootScreen(),

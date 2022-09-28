@@ -1,13 +1,13 @@
 import '../../../utils/imports.dart';
 
-class HomeScreen extends StatelessWidget {
-  const HomeScreen({super.key});
+class SearchScreen extends StatelessWidget {
+  const SearchScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
     return const SecondScaffold(
-      id: 0,
-      body: HomeBody(),
+      id: 3,
+      body: SearchBodyScreen(),
     );
   }
 }

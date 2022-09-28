@@ -1,12 +1,6 @@
-// ignore_for_file: camel_case_types
+import '../../../../utils/imports.dart';
 
-import 'package:aristotel/utils/icons.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
-
-import '../../../../utils/colors.dart';
-import '../../../common_widgets/text_widget.dart';
-
+// ignore: camel_case_types
 class Card_item extends StatelessWidget {
   final String? title;
   final String? imagePath;

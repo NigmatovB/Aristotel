@@ -1,5 +1,4 @@
-import 'package:aristotel/ui/screen/accaunt/widget/accaunt_body.dart';
-import 'package:flutter/material.dart';
+import '../../../../utils/imports.dart';
 
 class AccauntScreen extends StatelessWidget {
   const AccauntScreen({super.key});
