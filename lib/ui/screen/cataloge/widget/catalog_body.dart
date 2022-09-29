@@ -32,7 +32,7 @@ class CatalogBody extends StatelessWidget {
               alignment: Alignment.bottomCenter,
               child: ContainerWidget(
                 width: 328.w,
-                height: 530.h,
+                height: 510.h,
                 child: ListView.builder(
                   itemCount: 5,
                   itemBuilder: (context, index) {

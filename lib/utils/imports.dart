@@ -49,4 +49,6 @@ export 'package:aristotel/ui/screen/search/search_screen.dart';
 export 'package:aristotel/ui/screen/root/root_screen.dart';
 export 'package:aristotel/utils/route.dart';
 export 'package:aristotel/ui/common_widgets/card_4.dart';
+export 'package:aristotel/ui/screen/drawer/widgets/drawer_page_body.dart';
+export 'package:aristotel/ui/common_widgets/elevatedButton.dart';
 

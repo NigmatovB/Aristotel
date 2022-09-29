@@ -48,7 +48,7 @@ class CourseBody extends StatelessWidget {
                 ),
                 ContainerWidget(
                   width: 328.w,
-                  height: 530.h,
+                  height: 500.h,
                   alignment: Alignment.bottomCenter,
                   child: ListView.builder(
                     itemCount: 5,

@@ -5,7 +5,7 @@ class CatalogueAllScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const SecondScaffold(
+    return const  SecondScaffold(
       id: 2,
       body: CatalogueAllScreenBody(),
     );
