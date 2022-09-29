@@ -108,7 +108,7 @@ class DrawerPageBody extends StatelessWidget {
               width: 161.w,
               height: 72.h,
               left: 23.w,
-              bottom: 84.h,
+              bottom: 60.h,
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 mainAxisAlignment: MainAxisAlignment.center,
