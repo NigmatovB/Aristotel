@@ -48,9 +48,10 @@ class CourseBody extends StatelessWidget {
                 ),
                 ContainerWidget(
                   width: 328.w,
-                  height: 500.h,
+                  height: 600.h,
                   alignment: Alignment.bottomCenter,
                   child: ListView.builder(
+                    physics: const NeverScrollableScrollPhysics(),
                     itemCount: 5,
                     itemBuilder: (context, index) {
                       return const Card2();

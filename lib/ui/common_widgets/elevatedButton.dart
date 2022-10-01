@@ -62,8 +62,8 @@ class ElButton extends StatelessWidget {
                 ? ContainerWidget(
                     left: text != null ? 24.w : 0.0,
                     color: Rgb.blue1,
-                    width: radius,
-                    height: radius,
+                    width: 32.w,
+                    height: 32.w,
                     radius: 90.r,
                     child: Center(child: icon),
                   )

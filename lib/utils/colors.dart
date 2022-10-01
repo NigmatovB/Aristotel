@@ -17,5 +17,6 @@ class Rgb {
   static const  transparent = Colors.transparent;
   static const  black = Colors.black;
   static final  dividerColor = HexColor.fromHex('#D1DAF0');
+  static final  orange = HexColor.fromHex('#E4793D');
 }
 

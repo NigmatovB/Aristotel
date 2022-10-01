@@ -1,12 +1,1 @@
-<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g opacity="0.3">
-<rect x="0.25" y="4.82143" width="31.5" height="22.3571" rx="1.75" fill="white" stroke="#F5F5F5" stroke-width="0.5"/>
-<mask id="mask0_1911_35604" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="4" width="32" height="24">
-<rect x="0.25" y="4.82143" width="31.5" height="22.3571" rx="1.75" fill="white" stroke="white" stroke-width="0.5"/>
-</mask>
-<g mask="url(#mask0_1911_35604)">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 19.8095H32V12.1905H0V19.8095Z" fill="#0C47B7"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 27.4286H32V19.8095H0V27.4286Z" fill="#E53B35"/>
-</g>
-</g>
-</svg>
+<svg id="svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="266.1818181818182" viewBox="0, 0, 400,266.1818181818182"><g id="svgg"><path id="path0" d="M0.000 44.208 L 0.000 88.415 200.000 88.415 L 400.000 88.415 400.000 44.208 L 400.000 0.000 200.000 0.000 L 0.000 0.000 0.000 44.208 " stroke="none" fill="#fcfcfc" fill-rule="evenodd"></path><path id="path1" d="M0.000 221.971 L 0.000 266.312 200.000 266.312 L 400.000 266.312 400.000 221.971 L 400.000 177.630 200.000 177.630 L 0.000 177.630 0.000 221.971 " stroke="none" fill="#d42c1b" fill-rule="evenodd"></path><path id="path2" d="M0.000 89.214 C 0.000 89.392,66.844 89.481,200.000 89.481 C 333.156 89.481,400.000 89.392,400.000 89.214 C 400.000 89.037,333.156 88.948,200.000 88.948 C 66.844 88.948,0.000 89.037,0.000 89.214 M0.000 133.822 L 0.000 177.364 200.000 177.364 L 400.000 177.364 400.000 133.822 L 400.000 90.280 200.000 90.280 L 0.000 90.280 0.000 133.822 " stroke="none" fill="#043ca4" fill-rule="evenodd"></path><path id="path3" d="M0.000 89.880 C 0.000 90.235,22.400 90.280,200.000 90.280 C 377.600 90.280,400.000 90.235,400.000 89.880 C 400.000 89.525,377.600 89.481,200.000 89.481 C 22.400 89.481,0.000 89.525,0.000 89.880 M99.933 177.563 C 154.970 177.600,245.030 177.600,300.067 177.563 C 355.103 177.526,310.073 177.496,200.000 177.496 C 89.927 177.496,44.897 177.526,99.933 177.563 " stroke="none" fill="#041c9c" fill-rule="evenodd"></path><path id="path4" d="" stroke="none" fill="#b4100bc" fill-rule="evenodd"></path></g></svg>

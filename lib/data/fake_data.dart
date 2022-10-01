@@ -1,4 +1,4 @@
-// ignore_for_file: constant_identifier_names
+// ignore_for_file: constant_identifier_names, non_constant_identifier_names
 // ignore: unused_import
 import 'package:aristotel/utils/imports.dart';
 
@@ -27,4 +27,13 @@ const driver_item_text = [
   'Сотрудичество',
   'Инструкция',
   'Вопросы и ответы',
+];
+
+final cart_item_on = [ true, false, false, false ];
+
+const cart_item_photo = [
+  ImagesName.payme,
+  ImagesName.click,
+  ImagesName.oson,
+  ImagesName.bonus,
 ];

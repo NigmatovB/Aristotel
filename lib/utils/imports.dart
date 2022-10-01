@@ -51,4 +51,5 @@ export 'package:aristotel/utils/route.dart';
 export 'package:aristotel/ui/common_widgets/card_4.dart';
 export 'package:aristotel/ui/screen/drawer/widgets/drawer_page_body.dart';
 export 'package:aristotel/ui/common_widgets/elevatedButton.dart';
-
+export 'package:aristotel/ui/screen/cart/widget/card_5.dart';
+export 'package:aristotel/ui/screen/accaunt/widget/card_6.dart';
