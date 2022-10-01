@@ -109,11 +109,15 @@ class _CartBodyState extends State<CartBody> {
                               },
                               child: Column(
                                 children: [
-                                  SvgPicture.asset(
-                                    cart_item_photo[index],
-                                    width: 73.w,
-                                    height: 44.h,
-                                    fit: BoxFit.cover,
+                                  SizedBox(
+                                    width: 73.sp,
+                                    height: 44.sp,
+                                    child: SvgPicture.asset(
+                                      cart_item_photo[index],
+                                      width: 73.w,
+                                      height: 44.h,
+                                      fit: BoxFit.cover,
+                                    ),
                                   ),
                                   height(8.h),
                                   Container(
